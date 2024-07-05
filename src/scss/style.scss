@@ -1,0 +1,29 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/functions';
+
+@font-face {
+    font-family: openDyslexic;
+    src: url('/OpenDyslexic3-Regular.ttf');
+}
+
+* {
+    font-family: openDyslexic;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+}
+
+.no-break {
+    word-break: keep-all;
+}
+
+$primary: $gray-600;
+
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary
+));
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
