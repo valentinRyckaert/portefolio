@@ -7,7 +7,7 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
-        <Projet listTools="{['Django','Bootstrap','SQLite']}" imageLink="/moncontrat.png" imageAlt="site de moncontrat" linkTo="#">
+        <Projet listTools="{['Django','Bootstrap','SQLite']}" imageLink="/moncontrat.png" imageAlt="site de moncontrat">
             <span slot="title">
                 Générateur de contrat de partenariat commercial
             </span>
@@ -17,7 +17,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Docker','WordPress', 'WooCommerce', 'Hubspot', 'Yoast SEO']}" imageLink="/logo_votregouvernement.png" imageAlt="logo VotreGouvernement" linkTo="#">
+        <Projet listTools="{['Docker','WordPress', 'WooCommerce', 'Hubspot', 'Yoast SEO']}" imageLink="/logo_votregouvernement.png" imageAlt="logo VotreGouvernement">
             <span slot="title">
                 Site vitrine WordPress
             </span>
@@ -28,7 +28,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Laravel','Tailwind','Tuleap','Figma']}" imageLink="/logoPrixy.png" imageAlt="Logo Prixy" linkTo="#">
+        <Projet listTools="{['Laravel','Tailwind','Tuleap','Figma']}" imageLink="/logoPrixy.png" imageAlt="Logo Prixy">
             <span slot="title">
                 Application web de réservation
             </span>
@@ -39,7 +39,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Docker','MkDocs','Markdown']}" imageLink="/MkDocs.png" imageAlt="Logo MkDocs" linkTo="#">
+        <Projet listTools="{['Docker','MkDocs','Markdown']}" imageLink="/MkDocs.png" imageAlt="Logo MkDocs">
             <span slot="title">
                 Documentation Web
             </span>

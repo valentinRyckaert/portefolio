@@ -14,7 +14,6 @@
       <p class="card-text">
         <slot name="text"/>
       </p>
-      <a href="{linkTo}" class="btn btn-primary">Lien vers le projet</a>
     </div>
     <div class="card-footer">
         outils utilisés : {listTools.join(', ')}
