@@ -40,7 +40,7 @@
         <div class="accordion-item">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                C'est quoi cette police ???
+                C'est quoi cette police ??
             </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

@@ -20,10 +20,8 @@
     word-break: keep-all;
 }
 
-$primary: $gray-600;
-
 $theme-colors: map-merge($theme-colors, (
-  "primary": $primary
+  "primary": rgb(16, 56, 143)
 ));
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

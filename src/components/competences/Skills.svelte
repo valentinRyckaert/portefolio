@@ -3,8 +3,6 @@
 
   let skillFamilyList = [
     "Web",
-    "Logiciel",
-    "Mobile",
     "Programmation",
     "Base de données",
     "Système/Réseau",
@@ -20,19 +18,10 @@
     {
       "Angular":['/angular.png','++'],
       "Svelte":['/svelte.png','+++'],
-      "Django":['/django.png',"+"],
       "Express":['/express.png','++'],
       "Bootstrap":['/bootstrap.png',"+++"],
-      "Figma":['/figma.png','+'],
-    },
-    // Logiciel
-    {
-      "Java Swing":['','+'],
-      "Windows Form":['','++'],
-    },
-    // Mobile
-    {
-      "Svelte Native":['/svelte-native.jpg','+'],
+      "Figma":['/figma.png','++'],
+      "SASS":['/sass.png','++'],
     },
     //Programmation
     {
@@ -68,8 +57,8 @@
     // DevOps
     {
       "Docker":['/docker.png','++'],
-      "Google Cloud":['google-cloud.png','+'],
-      "Microsoft Azure":['/azure.png','+'],
+      "Git/Github":['/github.png','+++'],
+      "Microsoft Azure":['azure.png','+'],
     },
     // DPL/Webmarketing
     {
@@ -126,8 +115,6 @@
 		    {:else if active == skillFamilyList[9]}
           <UnSkill skills={skillsDictionnary[9]}/>
 		    {:else if active == skillFamilyList[10]}
-          <UnSkill skills={skillsDictionnary[10]}/>
-        {:else if active == skillFamilyList[10]}
           <UnSkill skills={skillsDictionnary[10]}/>
         {/if}
     </div>

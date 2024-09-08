@@ -1,7 +1,6 @@
 <script>
     import Title from "../components/layout/Title.svelte";
     import Navbar from "../components/layout/Navbar.svelte";
-    import Bill from "../components/Bill.svelte";
     
     let activePage = '/';
 </script>
@@ -17,18 +16,10 @@
         <slot/>
     </div>
     <br>
-    <div class="bg-body-secondary mt-4 text-center border-top border-dark-subtle p-5">
-        <div class="row">
-            <div class="col-5">
-                <div class="row my-3">Valentin Ryckaert</div>
-                <div class="row my-3">copyright2024</div>
-                <div class="row my-3">fait avec Svelte et Bootstrap</div>
-            </div>
-            <div class="col-7">
-                <Bill page="{activePage}"/>
-                <p class="my-3">Rien sur ce site n'a été produit par IA</p>
-            </div>
-        </div>
+    <div class="bg-body-secondary text-center mt-3 border-top border-dark-subtle p-4">
+        <p class="my-1">Contact : <a href="mailto:valentin.ryckaert@protonmail.com">valentin.ryckaert@protonmail.com</a></p>
+        <p class="my-3">Copyright © 2024 Valentin Ryckaert - tous droits réservés</p>
+        <p class="my-1">Fait avec Svelte et Bootstrap</p>
     </div>
 </div>
 

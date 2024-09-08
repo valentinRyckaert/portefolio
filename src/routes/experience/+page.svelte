@@ -3,7 +3,7 @@
 </script>
 
 <div class="row mb-5">
-    <h2 class="text-center">Mon Expérience</h2>
+    <h2 class="text-center">Mon expérience</h2>
 </div>
 <div class="row">
     <TitleTextImage imageLink="/inria.png" alt="Logo Inria" imagePos="left" titlePos="start">
@@ -27,14 +27,17 @@
             <p>Visite des ateliers de fabrication de téléscopes.</p>
         </span>
     </TitleTextImage>
-    <TitleTextImage imageLink="/xev.png" alt="Logo Xev" imagePos="left" titlePos="start">
+    <TitleTextImage imageLink="/xev.jpg" alt="Logo Xev" imagePos="left" titlePos="start">
         <span slot="title">
             Stage au sein de l'entreprise Xev
         </span>
         <span slot="body">
             <p>Stage de 6 semaines en développement Web chez Xev.</p>
+            <p>Expérimentation des méthodologies agiles (Jira)</p>
+            <p>Utilisation des outils gcloudCLI, PostgreSQL, Strapi, Angular et Firestore.</p>
+            <p>Analyse de données via des scripts Python.</p>
             <p>rédaction d'un rapport de stage.</p>
-            <p>Soutenance de stage</p>
+            <p>Soutenance de stage.</p>
         </span>
     </TitleTextImage>
 </div>

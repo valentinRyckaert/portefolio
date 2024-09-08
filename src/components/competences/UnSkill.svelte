@@ -25,3 +25,10 @@
         </div>
     {/each}
 </div>
+
+<style>
+  img {
+    max-width: 80px;
+  }
+</style>
+  
