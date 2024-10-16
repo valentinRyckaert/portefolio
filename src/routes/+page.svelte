@@ -9,14 +9,12 @@
             <h5 class="m-3 ">Je m'appelle Valentin Ryckaert, étudiant en BTS SIO option développement à l'Institution des Chartreux à Lyon.</h5>
             <h5 class="m-3">Je suis curieux, studieux et loyal. Je sais travailler seul comme au sein d'une équipe.</h5>
             <h5 class="m-3">Je suis à l'aise avec les technologies web (Django, Svelte, Angular...), ainsi qu'avec les langages Python, Ruby et Java.</h5>
-            <div class="text-center pt-4">
-                <a href="docs/CV-Valentin-Ryckaert.pdf" download>
-                    <button class="btn btn-lg btn-primary mt-2">Mon CV</button>
+            <div class="text-center pt-4 my-4">
+                <a href="docs/CV-Valentin-Ryckaert.pdf" class="col-6" download>
+                    <button class="btn btn-lg btn-primary m-2">Mon CV</button>
                 </a>
-            </div>
-            <div class="text-center pt-4">
-                <a href="docs/BTS-SIO-Tableau-de-synthese-Epreuve-E5.pdf" download>
-                    <button class="btn btn btn-success mt-2 mb-4">Ma fiche de compétences</button>
+                <a href="docs/BTS-SIO-Tableau-de-synthese-Epreuve-E5.pdf" class="col-6" download>
+                    <button class="btn btn-lg btn-success m-2">Ma fiche de compétences</button>
                 </a>
             </div>
         </div>
@@ -31,12 +29,12 @@
 
 <style>
     img {
-      max-width: 400px;
+      max-width: 320px;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
-    @media (min-width: 1210px) {
+    @media (min-width: 1110px) {
         .cust-col-lg-5 {
             flex: 0 0 auto;
             width: 41.66666667%;
