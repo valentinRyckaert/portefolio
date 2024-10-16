@@ -15,7 +15,7 @@
         <slot name="text"/>
       </p>
       {#if linkTo}
-        <a href="{linkTo}" class="btn btn-sm btn-primary">Voir sur github</a>
+        <a href="{linkTo}" target="_blank" class="btn btn-sm btn-primary">Voir sur github</a>
       {/if}
     </div>
     <div class="card-footer">
