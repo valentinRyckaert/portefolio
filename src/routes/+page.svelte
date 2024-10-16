@@ -11,7 +11,12 @@
             <h5 class="m-3">Je suis à l'aise avec les technologies web (Django, Svelte, Angular...), ainsi qu'avec les langages Python, Ruby et Java.</h5>
             <div class="text-center pt-4">
                 <a href="docs/CV-Valentin-Ryckaert.pdf" download>
-                    <button class="btn btn-lg btn-primary mb-4">Mon CV</button>
+                    <button class="btn btn-lg btn-primary mt-2">Mon CV</button>
+                </a>
+            </div>
+            <div class="text-center pt-4">
+                <a href="docs/BTS-SIO-Tableau-de-synthese-Epreuve-E5.pdf" download>
+                    <button class="btn btn btn-success mt-2 mb-4">Ma fiche de compétences</button>
                 </a>
             </div>
         </div>
