@@ -6,7 +6,7 @@
     <h2 class="text-center">Mon expérience</h2>
 </div>
 <div class="row">
-    <TitleTextImage imageLink="/inria.png" alt="Logo Inria" imagePos="left" titlePos="start">
+    <TitleTextImage imageLink="images/inria.png" alt="Logo Inria" imagePos="left" titlePos="start">
         <span slot="title">
             Stage à l'Institut National de Recherche en Informatique et Automatique (INRIA)
         </span>
@@ -17,7 +17,7 @@
             <p>rédaction d'un rapport de stage.</p>
         </span>
     </TitleTextImage>
-    <TitleTextImage imageLink="/iap.jpg" alt="Logo IAP" imagePos="right" titlePos="end">
+    <TitleTextImage imageLink="images/iap.jpg" alt="Logo IAP" imagePos="right" titlePos="end">
         <span slot="title">
             Stage à l'Institut d'Astrophysique de Paris
         </span>
@@ -27,7 +27,7 @@
             <p>Visite des ateliers de fabrication de téléscopes.</p>
         </span>
     </TitleTextImage>
-    <TitleTextImage imageLink="/xev.png" alt="Logo Xev" imagePos="left" titlePos="start">
+    <TitleTextImage imageLink="images/xev.png" alt="Logo Xev" imagePos="left" titlePos="start">
         <span slot="title">
             Stage au sein de l'entreprise Xev
         </span>

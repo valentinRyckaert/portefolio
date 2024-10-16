@@ -22,9 +22,3 @@
         <p class="my-1">Fait avec Svelte et Bootstrap</p>
     </div>
 </div>
-
-
-
-<style global>
-    @import '../css/style.css';
-</style>

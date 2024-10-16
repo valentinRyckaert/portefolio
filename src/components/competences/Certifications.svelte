@@ -4,18 +4,18 @@
 
 <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-3">
     <div class="col">
-        <UneCertification imageLink="/c_anssi.png" title="MOOC cybersécurité (ANSSI)" listTools={["sécurité des mots de passe","sécurité physique","preuve informatique","bonnes pratiques cyber"]}/>
+        <UneCertification imageLink="images/c_anssi.png" title="MOOC cybersécurité (ANSSI)" listTools={["sécurité des mots de passe","sécurité physique","preuve informatique","bonnes pratiques cyber"]}/>
     </div>
     <div class="col">
-        <UneCertification imageLink="/c_vigipirate.jpg" title="Faire Face Ensemble (SGDSN)" listTools={["sécurité citoyenne"]}/>
+        <UneCertification imageLink="images/c_vigipirate.jpg" title="Faire Face Ensemble (SGDSN)" listTools={["sécurité citoyenne"]}/>
     </div>
     <div class="col">
-        <UneCertification imageLink="/c_cloud.jpg" title="Description des concpets du Cloud (Microsoft Learn)" listTools={["cloud computing"]}/>
+        <UneCertification imageLink="images/c_cloud.jpg" title="Description des concpets du Cloud (Microsoft Learn)" listTools={["cloud computing"]}/>
     </div>
     <div class="col">
-        <UneCertification imageLink="/c_ubuntu.jpg" title="Linux Ubuntu : Les Fondamentaux (Skilleos)" listTools={["Linux","Ubuntu Server"]}/>
+        <UneCertification imageLink="images/c_ubuntu.jpg" title="Linux Ubuntu : Les Fondamentaux (Skilleos)" listTools={["Linux","Ubuntu Server"]}/>
     </div>
     <div class="col">
-        <UneCertification imageLink="/c_svelte.jpg" title="Svelte.js 3 (Skilleos)" listTools={["Svelte"]}/>
+        <UneCertification imageLink="images/c_svelte.jpg" title="Svelte.js 3 (Skilleos)" listTools={["Svelte"]}/>
     </div>
 </div>

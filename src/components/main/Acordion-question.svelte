@@ -15,7 +15,7 @@
                     Je suis étudiant en BTS SIO (Services Informatiques aux Organisations) à l'Institution des Chartreux.
                     J'ai choisi en première année l'option SLAM (Solutions Logicielles et Applications Métiers) pour développer mes compétences en programmation.
                 </p>
-                <a class="btn btn-link" href="/formation">ma formation</a>
+                <a class="btn btn-link" href="/portefolio/formation">ma formation</a>
             </div>
         </div>
         </div>
@@ -31,9 +31,9 @@
                     Au cours de mon années, j'ai pu améliorer mes compétences en <strong>algorithmie</strong>, en <strong>Programmation Orientée Objet</strong> et en <strong>développement web</strong>.
                     Sur ce dernier point, je me suis particulièrement intéressé à Node.js et aux différents technologies associées (Express, Angular, Svelte, Strapi, TypeScript...).
                 </p>
-                <a class="btn btn-link" href="/competences">mes compétences</a>
-                <a class="btn btn-link" href="/projets">mes projets</a>
-                <a class="btn btn-link" href="/experience">mon expérience</a>
+                <a class="btn btn-link" href="/portefolio/competences">mes compétences</a>
+                <a class="btn btn-link" href="/portefolio/projets">mes projets</a>
+                <a class="btn btn-link" href="/portefolio/experience">mon expérience</a>
             </div>
         </div>
         </div>
@@ -53,7 +53,7 @@
                 <p>
                     La police avec laquelle vous lisez ceci est la version 3 du projet.
                 </p>
-                <a class="btn btn-link" href="/a_propos">à propos de ce site</a>
+                <a class="btn btn-link" href="/portefolio/a_propos">à propos de ce site</a>
             </div>
         </div>
     </div>

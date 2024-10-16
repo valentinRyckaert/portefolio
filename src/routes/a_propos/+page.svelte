@@ -6,7 +6,7 @@
     <h2 class="text-center">A propos de ce site</h2>
 </div>
 <div class="row">
-    <TitleTextImage imageLink="/svelte.svg" alt="Logo Svelte" imagePos="right" titlePos="start">
+    <TitleTextImage imageLink="images/svelte.svg" alt="Logo Svelte" imagePos="right" titlePos="start">
         <span slot="title">
             Ce site est fait avec Svelte et Bootstrap
         </span>
@@ -26,7 +26,7 @@
     </TitleTextImage>
 </div>
 <div class="row">
-    <TitleTextImage imageLink="/opendyslexic.png" alt="Logo OpenDyslexic" imagePos="left" titlePos="end">
+    <TitleTextImage imageLink="images/opendyslexic.png" alt="Logo OpenDyslexic" imagePos="left" titlePos="end">
         <span slot="title">
             La police de ce site est adaptée aux dyslexiques
         </span>

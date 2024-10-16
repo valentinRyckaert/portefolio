@@ -16,34 +16,34 @@
   let skillsDictionnary = [
     // Web
     {
-      "Angular": '/angular.png',
-      "Svelte": '/svelte.svg',
-      "Express": '/nodejs.png',
-      "Bootstrap": '/bootstrap.png',
-      "Figma": '/figma.png',
-      "SASS": '/sass.png',
+      "Angular": 'images/angular.png',
+      "Svelte": 'images/svelte.svg',
+      "Express": 'images/nodejs.png',
+      "Bootstrap": 'images/bootstrap.png',
+      "Figma": 'images/figma.png',
+      "SASS": 'images/sass.png',
     },
     // Programmation
     {
-      "Python": '/python.png',
-      "Ruby": '/ruby.png',
-      "Java": '/java.png',
-      "C#": '/c_sharp.png',
-      "TypeScript": '/typescript.png',
-      "Go": '/go.png',
+      "Python": 'images/python.png',
+      "Ruby": 'images/ruby.png',
+      "Java": 'images/java.png',
+      "C#": 'images/c_sharp.png',
+      "TypeScript": 'images/typescript.png',
+      "Go": 'images/go.png',
     },
     // Base de Données
     {
-      "MySQL": '/mysql.png',
-      "PostgreSQL": '/postgresql.png',
-      "MongoDB": '/mongodb.png',
-      "Firestore": '/firestore.png',
+      "MySQL": 'images/mysql.png',
+      "PostgreSQL": 'images/postgresql.png',
+      "MongoDB": 'images/mongodb.png',
+      "Firestore": 'images/firestore.png',
     },
     // Système/Réseau
     {
-      "Windows": '/windows.png',
-      "Linux": '/linux.png',
-      "Serveur Linux": '/debian.png',
+      "Windows": 'images/windows.png',
+      "Linux": 'images/linux.png',
+      "Serveur Linux": 'images/debian.png',
       "DNS": '',
       "Routage": '',
     },
@@ -56,14 +56,14 @@
     },
     // DevOps
     {
-      "Docker": '/docker.png',
-      "Github": '/github.png',
-      "Gitlab": '/gitlab.png',
-      "Microsoft Azure": 'azure.png',
+      "Docker": 'images/docker.png',
+      "Github": 'images/github.png',
+      "Gitlab": 'images/gitlab.png',
+      "Microsoft Azure": 'images/azure.png',
     },
     // DPL/Webmarketing
     {
-      "WordPress": '/wordpress.png',
+      "WordPress": 'images/wordpress.png',
       "Référencement": '',
       "E-mailing": '',
     },
