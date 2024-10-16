@@ -14,6 +14,9 @@
       <p class="card-text">
         <slot name="text"/>
       </p>
+      {#if linkTo}
+        <a href="{linkTo}" class="btn btn-sm btn-primary">Voir sur github</a>
+      {/if}
     </div>
     <div class="card-footer">
         outils utilisés : {listTools.join(', ')}
