@@ -11,12 +11,12 @@
             <h5 class="m-3">Je suis à l'aise avec les frameworks Node.js (Express, Angular, Svelte...), ainsi qu'avec les langages Python, Ruby et Java.</h5>
             <div class="text-center pt-4">
                 <a href="/CV-Valentin-Ryckaert.pdf" download>
-                    <button class="btn btn-lg btn-primary">Mon CV</button>
+                    <button class="btn btn-lg btn-primary mb-4">Mon CV</button>
                 </a>
             </div>
         </div>
         <div class="cust-col-lg-5">
-            <img src="/profil.jpg" class="img-fluid mx-auto" alt="mon chat">
+            <img src="/profil.jpg" class="img-fluid mx-auto" alt="profil">
         </div>
     </div>
     <div class="row p-md-5 px-2 py-5 mb-5 border border-5 rounded-5">

@@ -32,7 +32,7 @@
 
 <style>
     img {
-      max-width: 300px;
+      max-width: 200px;
       display: block;
       margin-left: auto;
       margin-right: auto;

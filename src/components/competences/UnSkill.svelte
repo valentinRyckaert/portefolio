@@ -1,34 +1,31 @@
 <script>
-    export let skills;
+  export let skills;
 </script>
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
-    {#each Object.entries(skills) as skill}
-        <div class="col card-group g-3">
-            <div class="card mb-3" style="max-width: 320px;">
-                <div class="row">
-                  {#if skill[1][0] != ''}
-                    <div class="col-md-4">
-                      <img src="{skill[1][0]}" class="img-fluid m-2 " alt="logo {skill[0]}">
-                    </div>
-                  {/if}
-                  <div class="{skill[1][0] != '' ? "col-md-8" : ""}">
-                    <div class="card-body">
-                      <h5 class="card-text no-break">{skill[0]}</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer mt-auto text-body-secondary">
-                  expérience : {skill[1][1]}
-                </div>					
+  {#each Object.entries(skills) as [key, value]}
+    <div class="col card-group g-3">
+      <div class="card" style="max-width: 320px;">
+        <div class="row m-2 align-items-center">
+          {#if value != ''}
+            <div class="col-md-4 d-flex justify-content-center">
+              <img src="{value}" class="img-fluid" alt="logo {key}" style="max-height: 80px; width: auto;">
             </div>
-        </div>
-    {/each}
+          {/if}
+          <div class="{value != '' ? "col-md-8" : "col-md-12"}">
+            <div class="card-body d-flex justify-content-center align-items-center" style="height: 100%;">
+              <h5 class="card-text no-break mb-0 text-center">{key}</h5>
+            </div>
+          </div>  
+        </div>				
+      </div>
+    </div>
+  {/each}
 </div>
 
 <style>
   img {
-    max-width: 80px;
+    max-width: 100%;
   }
 </style>
   

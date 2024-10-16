@@ -39,7 +39,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Docker','MkDocs','Markdown']}" imageLink="/MkDocs.png" imageAlt="Logo MkDocs">
+        <Projet listTools="{['Docker','MkDocs','Markdown']}" imageLink="/mkdocs.png" imageAlt="Logo MkDocs">
             <span slot="title">
                 Documentation Web
             </span>

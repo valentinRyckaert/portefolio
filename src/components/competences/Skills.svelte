@@ -16,68 +16,70 @@
   let skillsDictionnary = [
     // Web
     {
-      "Angular":['/angular.png','++'],
-      "Svelte":['/svelte.png','+++'],
-      "Express":['/express.png','++'],
-      "Bootstrap":['/bootstrap.png',"+++"],
-      "Figma":['/figma.png','++'],
-      "SASS":['/sass.png','++'],
+      "Angular": '/angular.png',
+      "Svelte": '/svelte.svg',
+      "Express": '/nodejs.png',
+      "Bootstrap": '/bootstrap.png',
+      "Figma": '/figma.png',
+      "SASS": '/sass.png',
     },
-    //Programmation
+    // Programmation
     {
-      "Python":['/python.png','+++'],
-      "Ruby":['/ruby.png','+++'],
-      "Java":['/java.png','++'],
-      "C#":['/CS.png','++'],
-      "TypeScript":['/typescript.png','+++'],
-      "Go":['/go.png','+'],
+      "Python": '/python.png',
+      "Ruby": '/ruby.png',
+      "Java": '/java.png',
+      "C#": '/c_sharp.png',
+      "TypeScript": '/typescript.png',
+      "Go": '/go.png',
     },
     // Base de Données
     {
-      "MySQL":['/mysql.png','++'],
-      "PostgreSQL":['/postgresql.png','++'],
-      "MongoDB":['/mongodb.jpg','+'],
-      "Firestore":['/firestore.jpg','++'],
+      "MySQL": '/mysql.png',
+      "PostgreSQL": '/postgresql.png',
+      "MongoDB": '/mongodb.png',
+      "Firestore": '/firestore.png',
     },
     // Système/Réseau
     {
-		"Windows":['/windows.png','++'],
-		"Linux":['/linux.png','+++'],
-		"Serveur Linux":['/linux-server.png','++'],
-		"DNS":['','+'],
-		"Routage":['','++'],
+      "Windows": '/windows.png',
+      "Linux": '/linux.png',
+      "Serveur Linux": '/debian.png',
+      "DNS": '',
+      "Routage": '',
     },
     // Cybersécurité
     {
-      "Certificat":['','+'],
-      "Horodatage":['','+'],
-      "Chiffrement":['','++'],
-      "P2P":['','++'],
+      "Certificat": '',
+      "Horodatage": '',
+      "Chiffrement": '',
+      "P2P": '',
     },
     // DevOps
     {
-      "Docker":['/docker.png','++'],
-      "Git/Github":['/github.png','+++'],
-      "Microsoft Azure":['azure.png','+'],
+      "Docker": '/docker.png',
+      "Github": '/github.png',
+      "Gitlab": '/gitlab.png',
+      "Microsoft Azure": 'azure.png',
     },
     // DPL/Webmarketing
     {
-      "WordPress":['/wordpress.jpg','++'],
-      "Référencement":['','++'],
-      "E-mailing":['','+'],
+      "WordPress": '/wordpress.png',
+      "Référencement": '',
+      "E-mailing": '',
     },
     // Soft Skills
     {
-      "Autoapprenissage":['','+++'],
-      "Travail en équipe":['','++'],
-      "Conduite de projet":['','++'],
+      "Autoapprenissage": '',
+      "Travail en équipe": '',
+      "Conduite de projet": '',
     },
     // Langues
     {
-      "Anglais":['','+++'],
-      "Allemand":['','+'],
+      "Anglais": '',
+      "Allemand": '',
     },
-  ]
+  ];
+
 
   let active = skillFamilyList[0];
 </script>

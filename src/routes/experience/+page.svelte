@@ -17,7 +17,7 @@
             <p>rédaction d'un rapport de stage.</p>
         </span>
     </TitleTextImage>
-    <TitleTextImage imageLink="/iap.jpeg" alt="Logo IAP" imagePos="right" titlePos="end">
+    <TitleTextImage imageLink="/iap.jpg" alt="Logo IAP" imagePos="right" titlePos="end">
         <span slot="title">
             Stage à l'Institut d'Astrophysique de Paris
         </span>
@@ -27,7 +27,7 @@
             <p>Visite des ateliers de fabrication de téléscopes.</p>
         </span>
     </TitleTextImage>
-    <TitleTextImage imageLink="/xev.jpg" alt="Logo Xev" imagePos="left" titlePos="start">
+    <TitleTextImage imageLink="/xev.png" alt="Logo Xev" imagePos="left" titlePos="start">
         <span slot="title">
             Stage au sein de l'entreprise Xev
         </span>
