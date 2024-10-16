@@ -18,6 +18,7 @@
     {
       "Angular": 'images/angular.png',
       "Svelte": 'images/svelte.svg',
+      "Django": 'images/django.png',
       "Express": 'images/nodejs.png',
       "Bootstrap": 'images/bootstrap.png',
       "Figma": 'images/figma.png',
