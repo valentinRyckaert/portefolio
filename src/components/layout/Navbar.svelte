@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item mx-3">
-            <a class="nav-link {active == '/' ? "active" : ""}" aria-current="page" href="/portefolio" on:click={event => setActiveRoute('/')}>Accueil</a>
+            <a class="nav-link {active == '/' ? "active" : ""}" aria-current="page" href="/" on:click={event => setActiveRoute('/')}>Accueil</a>
           </li>
           <li class="nav-item mx-3">
             <a class="nav-link {active == '/formation' ? "active" : ""}" href="/formation" on:click={event => setActiveRoute('/formation')}>Formation</a>
