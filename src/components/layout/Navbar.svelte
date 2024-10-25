@@ -23,19 +23,19 @@
             <a class="nav-link {active == '/' ? "active" : ""}" aria-current="page" href="/portefolio" on:click={event => setActiveRoute('/')}>Accueil</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link {active == '/formation' ? "active" : ""}" href="/portefolio/formation" on:click={event => setActiveRoute('/formation')}>Formation</a>
+            <a class="nav-link {active == '/formation' ? "active" : ""}" href="/formation" on:click={event => setActiveRoute('/formation')}>Formation</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link {active == '/experience' ? "active" : ""}" href="/portefolio/experience" on:click={event => setActiveRoute('/experience')}>Expérience</a>
+            <a class="nav-link {active == '/experience' ? "active" : ""}" href="/experience" on:click={event => setActiveRoute('/experience')}>Expérience</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link {active == '/competences' ? "active" : ""}" href="/portefolio/competences" on:click={event => setActiveRoute('/competences')}>Compétences</a>
+            <a class="nav-link {active == '/competences' ? "active" : ""}" href="/competences" on:click={event => setActiveRoute('/competences')}>Compétences</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link {active == '/projets' ? "active" : ""}" href="/portefolio/projets" on:click={event => setActiveRoute('/projets')}>Projets</a>
+            <a class="nav-link {active == '/projets' ? "active" : ""}" href="/projets" on:click={event => setActiveRoute('/projets')}>Projets</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link {active == '/a_propos' ? "active" : ""}" href="/portefolio/a_propos" on:click={event => setActiveRoute('/a_propos')}>A propos de ce site</a>
+            <a class="nav-link {active == '/a_propos' ? "active" : ""}" href="/a_propos" on:click={event => setActiveRoute('/a_propos')}>A propos de ce site</a>
           </li>
         </ul>
       </div>
