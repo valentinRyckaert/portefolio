@@ -30,6 +30,7 @@
       "Ruby": 'images/ruby.png',
       "Java": 'images/java.png',
       "C#": 'images/c_sharp.png',
+      "PHP": 'images/php.png',
       "TypeScript": 'images/typescript.png',
       "Go": 'images/go.png',
     },
