@@ -9,7 +9,7 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <p>
-                    Je m'appelle Valentin, j'ai 18 ans et je suis Lyonnais.
+                    Je m'appelle Valentin, j'ai 19 ans et je suis lyonnais.
                 </p>
                 <p>
                     Je suis étudiant en BTS SIO (Services Informatiques aux Organisations) à l'Institution des Chartreux.
