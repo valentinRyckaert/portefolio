@@ -7,7 +7,7 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
-        <Projet listTools="{['Django','Bootstrap','SQLite']}" linkTo="https://github.com/ValRy911/MonContrat" imageLink="images/moncontrat.png" imageAlt="site de moncontrat">
+        <Projet listTools="{['Django','Bootstrap','SQLite']}" linkTo="https://github.com/valentinRyckaert/MonContrat" imageLink="images/moncontrat.png" imageAlt="site de moncontrat">
             <span slot="title">
                 Générateur de contrat de partenariat commercial
             </span>
@@ -46,6 +46,26 @@
             <span slot="text">
                 Développement d'une Documentation web en markdown avec MkDocs.
                 Travail par deux.
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['PHP','composer']}" linkTo="https://github.com/valentinRyckaert/Piment" imageLink="images/piment.png" imageAlt="Logo piment">
+            <span slot="title">
+                Application Piment
+            </span>
+            <span slot="text">
+                Développement d'une Apllication web en PHP natif
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['C']}" linkTo="https://github.com/valentinRyckaert/ALL" imageLink="images/ALL.png" imageAlt="program ALL">
+            <span slot="title">
+                Assembly-Like Language (ALL)
+            </span>
+            <span slot="text">
+                Langage de programmation inspiré de la syntaxe des langages assembleurs
             </span>
         </Projet>
     </div>
