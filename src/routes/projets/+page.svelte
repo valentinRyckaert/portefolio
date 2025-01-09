@@ -55,7 +55,7 @@
                 Application Piment
             </span>
             <span slot="text">
-                Développement d'une Apllication web en PHP natif
+                Développement d'une Application web en PHP natif
             </span>
         </Projet>
     </div>

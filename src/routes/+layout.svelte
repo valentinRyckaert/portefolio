@@ -18,7 +18,6 @@
     <br>
     <div class="bg-body-secondary text-center mt-3 border-top border-dark-subtle p-4">
         <p class="my-1">Contact : <a href="mailto:valentin.ryckaert@protonmail.com">valentin.ryckaert@protonmail.com</a></p>
-        <p class="my-3">Copyright © 2024 Valentin Ryckaert - tous droits réservés</p>
         <p class="my-1">Fait avec Svelte et Bootstrap</p>
     </div>
 </div>
