@@ -59,7 +59,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['GLPI','OCS Inventory','Apache','MySQL']}" imageLink="images/OCSInventory.png" imageAlt="Logo GLPI">
+        <Projet listTools="{['Docker','GLPI','OCS Inventory','Apache','MySQL']}" imageLink="images/OCSInventory.png" imageAlt="Logo GLPI">
             <span slot="title">
                 TP OCS
             </span>
