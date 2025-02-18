@@ -16,10 +16,13 @@
   let skillsDictionnary = [
     // Web
     {
-      "Angular": 'images/angular.png',
       "Svelte": 'images/svelte.svg',
-      "Django": 'images/django.png',
+      "FastAPI": 'images/fastapi.png',
+      "Deno": 'images/deno.png',
+      "Node.js": 'images/nodejs.png',
       "Express": 'images/nodejs.png',
+      "Angular": 'images/angular.png',
+      "Django": 'images/django.png',
       "Bootstrap": 'images/bootstrap.png',
       "Figma": 'images/figma.png',
       "SASS": 'images/sass.png',
@@ -30,14 +33,16 @@
       "Ruby": 'images/ruby.png',
       "Java": 'images/java.png',
       "C#": 'images/c_sharp.png',
+      "C": 'images/C.png',
       "PHP": 'images/php.png',
       "TypeScript": 'images/typescript.png',
       "Go": 'images/go.png',
     },
     // Base de Données
     {
-      "MySQL": 'images/mysql.png',
+      "MariaDB": 'images/mariadb.png',
       "PostgreSQL": 'images/postgresql.png',
+      "OracleDB": 'images/oracledb.png',
       "MongoDB": 'images/mongodb.png',
       "Firestore": 'images/firestore.png',
     },
