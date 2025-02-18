@@ -7,12 +7,22 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
-        <Projet listTools="{['Django','Bootstrap','SQLite']}" linkTo="https://github.com/valentinRyckaert/MonContrat" imageLink="images/moncontrat.png" imageAlt="site de moncontrat">
+        <Projet listTools="{['PHP','composer']}" linkTo="https://github.com/valentinRyckaert/Piment" imageLink="images/piment.png" imageAlt="Logo piment">
             <span slot="title">
-                Générateur de contrat de partenariat commercial
+                Application Piment
             </span>
             <span slot="text">
-                Application web de type CRUD : formulaire générant un contrat et stockage des différents contrats.
+                Développement d'une Application web en PHP natif
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['C']}" linkTo="https://github.com/valentinRyckaert/ALL" imageLink="images/ALL.png" imageAlt="program ALL">
+            <span slot="title">
+                Assembly-Like Language (ALL)
+            </span>
+            <span slot="text">
+                Langage de programmation inspiré de la syntaxe des langages assembleurs
             </span>
         </Projet>
     </div>
@@ -39,33 +49,32 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Docker','MkDocs','Markdown']}" imageLink="images/mkdocs.png" imageAlt="Logo MkDocs">
+        <Projet listTools="{['GLPI']}" imageLink="images/GLPI.png" imageAlt="Logo GLPI">
             <span slot="title">
-                Documentation Web
+                TP GLPI
             </span>
             <span slot="text">
-                Développement d'une Documentation web en markdown avec MkDocs.
-                Travail par deux.
+                Mise en place d'un GLPI pour la gestion d'incidents
             </span>
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['PHP','composer']}" linkTo="https://github.com/valentinRyckaert/Piment" imageLink="images/piment.png" imageAlt="Logo piment">
+        <Projet listTools="{['GLPI','OCS Inventory','Apache','MySQL']}" imageLink="images/OCSInventory.png" imageAlt="Logo GLPI">
             <span slot="title">
-                Application Piment
+                TP OCS
             </span>
             <span slot="text">
-                Développement d'une Application web en PHP natif
+                Mise en place d'un OCS Inventory couplé à un GLPI pour la gestion de patrimoine informatique
             </span>
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['C']}" linkTo="https://github.com/valentinRyckaert/ALL" imageLink="images/ALL.png" imageAlt="program ALL">
+        <Projet listTools="{['Django','Bootstrap','SQLite']}" linkTo="https://github.com/valentinRyckaert/MonContrat" imageLink="images/moncontrat.png" imageAlt="site de moncontrat">
             <span slot="title">
-                Assembly-Like Language (ALL)
+                Générateur de contrat de partenariat commercial
             </span>
             <span slot="text">
-                Langage de programmation inspiré de la syntaxe des langages assembleurs
+                Application web de type CRUD : formulaire générant un contrat et stockage des différents contrats.
             </span>
         </Projet>
     </div>
