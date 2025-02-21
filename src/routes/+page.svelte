@@ -10,11 +10,8 @@
             <h5 class="m-3">Je suis curieux, studieux et loyal. Je sais travailler seul comme au sein d'une équipe.</h5>
             <h5 class="m-3">Je suis à l'aise avec les technologies web (Django, Svelte, Angular...), ainsi qu'avec les langages Python, Ruby et Java.</h5>
             <div class="text-center pt-4 my-4">
-                <a href="docs/CV-Valentin-Ryckaert.pdf" class="col-6">
+                <a href="docs/CV-Valentin-Ryckaert.pdf" target="_blank">
                     <button class="btn btn-lg btn-primary m-2">Mon CV</button>
-                </a>
-                <a href="docs/BTS-SIO-Tableau-de-synthese-Epreuve-E5.pdf" class="col-6">
-                    <button class="btn btn-lg btn-success m-2">Ma fiche de compétences</button>
                 </a>
             </div>
         </div>
