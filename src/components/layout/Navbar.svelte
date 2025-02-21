@@ -35,6 +35,9 @@
             <a class="nav-link {active == '/projets' ? "active" : ""}" href="/projets" on:click={event => setActiveRoute('/projets')}>Projets</a>
           </li>
           <li class="nav-item mx-3">
+            <a class="nav-link {active == '/bts_sio' ? "active" : ""}" href="/bts_sio" on:click={event => setActiveRoute('/bts_sio')}>BTS SIO</a>
+          </li>
+          <li class="nav-item mx-3">
             <a class="nav-link {active == '/a_propos' ? "active" : ""}" href="/a_propos" on:click={event => setActiveRoute('/a_propos')}>A propos de ce site</a>
           </li>
         </ul>
