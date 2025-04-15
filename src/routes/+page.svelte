@@ -13,9 +13,6 @@
                 <a href="docs/CV-Valentin-Ryckaert.pdf" class="col-6">
                     <button class="btn btn-lg btn-primary m-2">Mon CV</button>
                 </a>
-                <a href="docs/BTS-SIO-Tableau-de-synthese-Epreuve-E5.pdf" class="col-6">
-                    <button class="btn btn-lg btn-success m-2">Ma fiche de compétences</button>
-                </a>
             </div>
         </div>
         <div class="cust-col-lg-5">
