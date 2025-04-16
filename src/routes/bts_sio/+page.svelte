@@ -50,19 +50,41 @@
                 </tr>
                 <tr>
                     <th scope="row">Développement de présence en ligne</th>
-                    <td></td> <td></td> <td class="cross">X</td> <td></td> <td></td> <td></td>
+                    <td></td> <td></td>
+                    <td on:click={() => {active_presentation = 3}} class="cross">X</td>
+                    <td></td> <td></td> <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Développement de l'application ResAppli</th>
-                    <td></td> <td></td> <td class="cross">X</td> <td class="cross">X</td> <td></td> <td></td>
+                    <td></td> <td></td>
+                    <td on:click={() => {active_presentation = 4}} class="cross">X</td>
+                    <td on:click={() => {active_presentation = 5}} class="cross">X</td>
+                    <td></td> <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Application web Piment</th>
-                    <td></td> <td></td> <td></td> <td></td> <td class="cross">X</td> <td></td>
+                    <td></td> <td></td> <td></td> <td></td>
+                    <td on:click={() => {active_presentation = 6}} class="cross">X</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Gestion d'inventaire OCS Inventory</th>
-                    <td class="cross">X</td> <td></td> <td></td> <td></td> <td class="cross">X</td> <td></td>
+                    <td on:click={() => {active_presentation = 7}} class="cross">X</td>
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Veille technologique sur le GraphQL</th>
+                    <td></td>
+                    <td></td> <td></td> <td></td>
+                    <td></td>
+                    <td on:click={() => {active_presentation = 8}} class="cross">X</td>
+                </tr>
+                <tr>
+                    <th scope="row">TP PCA-PRA (gouvernance)</th>
+                    <td on:click={() => {active_presentation = 9}} class="cross">X</td>
+                    <td></td> <td></td> <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td colspan="7" class="">
@@ -71,11 +93,22 @@
                 </tr>
                 <tr>
                     <th scope="row">Développement de fonctionnalités web</th>
-                    <td></td> <td></td> <td class="cross">X</td> <td class="cross">X</td> <td class="cross">X</td> <td></td>
+                    <td></td> <td></td>
+                    <td></td>
+                    <td on:click={() => {active_presentation = 10}} class="cross">X</td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <th scope="row">Participation aux réunions</th>
-                    <td></td> <td></td> <td></td> <td class="cross">X</td> <td></td> <td></td>
+                    <td colspan="7" class="">
+                        <p>projets durant le stage de seconde année</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Application web NPSA-NG</th>
+                    <td></td> <td></td> <td></td> <td></td>
+                    <td on:click={() => {active_presentation = 11}} class="cross">X</td>
+                    <td></td>
                 </tr>
             </tbody>    
         </table>
