@@ -2,6 +2,7 @@
     import Slides from "../../components/bts_sio/Slides.svelte"
   import CertifsDevProfesionnel from "./presentations/Certifs-dev-profesionnel.svelte";
     import GlpiGestionsIncident from "./presentations/GLPI-gestion-incidents.svelte"
+  import WordpressDpl from "./presentations/Wordpress-DPL.svelte";
 
     let active_presentation = 0
 </script>
@@ -50,7 +51,7 @@
                 </tr>
                 <tr>
                     <th scope="row">Développement de présence en ligne</th>
-                    <td></td> <td></td> <td class="cross">X</td> <td></td> <td></td> <td></td>
+                    <td></td> <td></td> <td on:click={() => {active_presentation = 3}} class="cross">X</td> <td></td> <td></td> <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Développement de l'application ResAppli</th>
@@ -89,6 +90,10 @@
     {:else if active_presentation === 2}
         <Slides nbPages=7>
             <CertifsDevProfesionnel/>
+        </Slides>
+    {:else if active_presentation === 3}
+        <Slides nbPages=3>
+            <WordpressDpl/>
         </Slides>
     {/if}
 {/if}
