@@ -125,13 +125,13 @@
         <Slides nbPages=7>
             <CertifsDevProfesionnel/>
         </Slides>
+    {:else if active_presentation === 3}
+        <Slides nbPages=7>
+            <WordpressDpl/>
+        </Slides>
     {:else if active_presentation === 8}
         <Slides nbPages=5>
             <VeilleGraphQl/>
-        </Slides>
-    {:else if active_presentation === 3}
-        <Slides nbPages=3>
-            <WordpressDpl/>
         </Slides>
     {/if}
 {/if}

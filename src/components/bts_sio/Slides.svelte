@@ -11,7 +11,7 @@
                 <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to={i+1} aria-label="Slide {i+1}"></button>
               {/each}
             </div>
-            <div class="carousel-inner px-5 pb-5">
+            <div class="carousel-inner pb-5" style="padding-inline: 130px;">
                 <slot/>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
