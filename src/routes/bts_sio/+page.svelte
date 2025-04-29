@@ -2,6 +2,7 @@
     import Slides from "../../components/bts_sio/Slides.svelte"
   import CertifsDevProfesionnel from "./presentations/Certifs-dev-profesionnel.svelte";
     import GlpiGestionsIncident from "./presentations/GLPI-gestion-incidents.svelte"
+    import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte";
 
     let active_presentation = 0
 </script>
@@ -122,6 +123,10 @@
     {:else if active_presentation === 2}
         <Slides nbPages=7>
             <CertifsDevProfesionnel/>
+        </Slides>
+    {:else if active_presentation === 8}
+        <Slides nbPages=5>
+            <VeilleGraphQl/>
         </Slides>
     {/if}
 {/if}
