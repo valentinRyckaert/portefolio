@@ -4,6 +4,7 @@
     import GlpiGestionsIncident from "./presentations/GLPI-gestion-incidents.svelte"
   import WordpressDpl from "./presentations/Wordpress-DPL.svelte";
     import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte";
+  import PimentDispoService from "./presentations/Piment-Dispo-service.svelte";
 
     let active_presentation = 0
 </script>
@@ -128,6 +129,10 @@
     {:else if active_presentation === 3}
         <Slides nbPages=7>
             <WordpressDpl/>
+        </Slides>
+    {:else if active_presentation === 6}
+        <Slides nbPages=7>
+            <PimentDispoService/>
         </Slides>
     {:else if active_presentation === 8}
         <Slides nbPages=8>
