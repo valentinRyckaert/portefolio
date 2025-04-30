@@ -130,7 +130,7 @@
             <WordpressDpl/>
         </Slides>
     {:else if active_presentation === 8}
-        <Slides nbPages=5>
+        <Slides nbPages=8>
             <VeilleGraphQl/>
         </Slides>
     {/if}
