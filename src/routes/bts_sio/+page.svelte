@@ -5,6 +5,7 @@
   import WordpressDpl from "./presentations/Wordpress-DPL.svelte";
     import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte";
   import PimentDispoService from "./presentations/Piment-Dispo-service.svelte";
+  import ResAppliDpl from "./presentations/ResAppli-DPL.svelte";
 
     let active_presentation = 0
 </script>
@@ -129,6 +130,10 @@
     {:else if active_presentation === 3}
         <Slides nbPages=7>
             <WordpressDpl/>
+        </Slides>
+    {:else if active_presentation === 4}
+        <Slides nbPages=7>
+            <ResAppliDpl/>
         </Slides>
     {:else if active_presentation === 6}
         <Slides nbPages=7>
