@@ -6,6 +6,7 @@
     import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte";
   import PimentDispoService from "./presentations/Piment-Dispo-service.svelte";
   import ResAppliDpl from "./presentations/ResAppli-DPL.svelte";
+  import GestionIncidentPCAPRA from './presentations/gestion-incident-PCA-PRA.svelte'
 
     let active_presentation = 0
 </script>
@@ -142,6 +143,10 @@
     {:else if active_presentation === 8}
         <Slides nbPages=8>
             <VeilleGraphQl/>
+        </Slides>
+    {:else if active_presentation === 9}
+        <Slides nbPages=8>
+            <GestionIncidentPCAPRA/>
         </Slides>
     {/if}
 {/if}
