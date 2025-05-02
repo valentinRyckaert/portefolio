@@ -6,8 +6,9 @@
     import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte";
   import PimentDispoService from "./presentations/Piment-Dispo-service.svelte";
   import ResAppliDpl from "./presentations/ResAppli-DPL.svelte";
-  import GestionIncidentPCAPRA from './presentations/PCA-PRA-Patrimoine.svelte'
+  import PCAPRAPatrimoine from './presentations/PCA-PRA-Patrimoine.svelte'
   import ResAppliModeProjet from "./presentations/ResAppli-mode-projet.svelte";
+  import OcsPatrimoine from "./presentations/OCS-Patrimoine.svelte";
 
     let active_presentation = 0
 </script>
@@ -145,13 +146,17 @@
         <Slides nbPages=7>
             <PimentDispoService/>
         </Slides>
+    {:else if active_presentation === 7}
+        <Slides nbPages=8>
+            <OcsPatrimoine/>    
+        </Slides>
     {:else if active_presentation === 8}
         <Slides nbPages=8>
             <VeilleGraphQl/>
         </Slides>
     {:else if active_presentation === 9}
         <Slides nbPages=8>
-            <GestionIncidentPCAPRA/>
+            <PCAPRAPatrimoine/>
         </Slides>
     {/if}
 {/if}
