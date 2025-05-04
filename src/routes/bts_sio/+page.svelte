@@ -1,14 +1,16 @@
 <script>
     import Slides from "../../components/bts_sio/Slides.svelte"
-  import CertifsDevProfesionnel from "./presentations/Certifs-dev-profesionnel.svelte";
+    import CertifsDevProfesionnel from "./presentations/Certifs-dev-profesionnel.svelte"
     import GlpiGestionsIncident from "./presentations/GLPI-gestion-incidents.svelte"
-  import WordpressDpl from "./presentations/Wordpress-DPL.svelte";
-    import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte";
-  import PimentDispoService from "./presentations/Piment-Dispo-service.svelte";
-  import ResAppliDpl from "./presentations/ResAppli-DPL.svelte";
-  import PCAPRAPatrimoine from './presentations/PCA-PRA-Patrimoine.svelte'
-  import ResAppliModeProjet from "./presentations/ResAppli-mode-projet.svelte";
-  import OcsPatrimoine from "./presentations/OCS-Patrimoine.svelte";
+    import WordpressDpl from "./presentations/Wordpress-DPL.svelte"
+    import VeilleGraphQl from "./presentations/Veille-GraphQL.svelte"
+    import PimentDispoService from "./presentations/Piment-Dispo-service.svelte"
+    import ResAppliDpl from "./presentations/ResAppli-DPL.svelte"
+    import PCAPRAPatrimoine from './presentations/PCA-PRA-Patrimoine.svelte'
+    import ResAppliModeProjet from "./presentations/ResAppli-mode-projet.svelte"
+    import OcsPatrimoine from "./presentations/OCS-Patrimoine.svelte"
+    import Stage1ModeProjet from "./presentations/Stage1-mode-projet.svelte"
+    import Stage2DispoService from './presentations/Stage2-Dispo-service.svelte'
 
     let active_presentation = 0
 </script>
@@ -158,11 +160,19 @@
         <Slides nbPages=8>
             <PCAPRAPatrimoine/>
         </Slides>
+    {:else if active_presentation === 10}
+        <Slides nbPages=6>
+            <Stage1ModeProjet/>
+        </Slides>
+    {:else if active_presentation === 11}
+        <Slides nbPages=6>
+            <Stage2DispoService/>  
+        </Slides>
     {/if}
 {/if}
 
 <style>
     .cross:hover {
-        background-color: lightgray;
+        background-color: lightgray
     }
 </style>
