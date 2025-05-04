@@ -123,49 +123,48 @@
         </table>
     </div>
 {:else}
-    <button on:click={() => {active_presentation = 0}} class="btn btn-sm btn-secondary mb-3">retour</button>
     {#if active_presentation === 1}
-        <Slides nbPages=12>
+        <Slides nbPages=12 bind:active_presentation documents={['compte-rendu-GLPI.pdf', 'Documentation-installation-GLPI.pdf']}>
             <GlpiGestionsIncident/>
         </Slides>
     {:else if active_presentation === 2}
-        <Slides nbPages=7>
+        <Slides nbPages=7 bind:active_presentation documents={['Projet-Professionnel-SIO1.pdf', 'Projet-Professionnel-SIO2.pdf']}>
             <CertifsDevProfesionnel/>
         </Slides>
     {:else if active_presentation === 3}
-        <Slides nbPages=7>
+        <Slides nbPages=7 bind:active_presentation documents={['Dossier_VotreGouvernement.pdf']}>
             <WordpressDpl/>
         </Slides>
     {:else if active_presentation === 4}
-        <Slides nbPages=7>
+        <Slides nbPages=7 bind:active_presentation documents={['documentation-utilisateur-ResAppli.pdf', 'presentation-commerciale-ResAppli.pdf']}>
             <ResAppliDpl/>
         </Slides>
     {:else if active_presentation === 5}
-        <Slides nbPages=6>
+        <Slides nbPages=6 bind:active_presentation documents={['documentation-utilisateur-ResAppli.pdf', 'presentation-commerciale-ResAppli.pdf']}>
             <ResAppliModeProjet/>
         </Slides>
     {:else if active_presentation === 6}
-        <Slides nbPages=7>
+        <Slides nbPages=7 bind:active_presentation>
             <PimentDispoService/>
         </Slides>
     {:else if active_presentation === 7}
-        <Slides nbPages=8>
+        <Slides nbPages=8 bind:active_presentation documents={['Compte-Rendu-OCS-Inventory.pdf']}>
             <OcsPatrimoine/>    
         </Slides>
     {:else if active_presentation === 8}
-        <Slides nbPages=8>
+        <Slides nbPages=8 bind:active_presentation documents={['Les-API-GraphQL.pdf']}>
             <VeilleGraphQl/>
         </Slides>
     {:else if active_presentation === 9}
-        <Slides nbPages=8>
+        <Slides nbPages=8 bind:active_presentation documents={['Compte-Rendu-PRA.pdf', 'PRA-PRASN.pdf']}>
             <PCAPRAPatrimoine/>
         </Slides>
     {:else if active_presentation === 10}
-        <Slides nbPages=6>
+        <Slides nbPages=6 bind:active_presentation documents={['rapport-de-stage-SIO-1.pdf']}>
             <Stage1ModeProjet/>
         </Slides>
     {:else if active_presentation === 11}
-        <Slides nbPages=6>
+        <Slides nbPages=6 bind:active_presentation documents={['rapport-de-stage-SIO2.pdf']}>
             <Stage2DispoService/>  
         </Slides>
     {/if}

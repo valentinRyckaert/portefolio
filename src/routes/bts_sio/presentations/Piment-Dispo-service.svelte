@@ -25,7 +25,7 @@
 <div class="carousel-item w-100 text-center">
     <h3>Mise en place de la branche CI-CD</h3>
     <br>
-    <img src="images/piment-gitlab.png" alt="interface gitlab">
+    <img src="images/piment-gitlab.png" alt="interface gitlab" style="max-width:800px;">
 </div>
 <div class="carousel-item w-100 text-center">
     <h3>Mise en place du fichier CI-CD gitlab</h3>

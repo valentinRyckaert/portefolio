@@ -1,7 +1,23 @@
 <script>
   export let nbPages
+  export let documents = []
+  export let active_presentation
 </script>
 
+<div class="row mb-3">
+  <div class="col-1">
+      <button on:click={() => {active_presentation = 0}} class="btn btn-sm btn-secondary mb-3">retour</button>
+  </div>
+  <div class="col-3">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        {#each documents as doc}
+          <a href="docs/{doc}" target="_blank">
+            <button type="button" class="btn btn-sm btn-primary mx-2">{doc}</button>
+          </a>
+        {/each}
+      </div>
+  </div>
+</div>
 <div class="card">
     <div class="card-body">
         <div id="carouselIndicators" class="carousel carousel-dark slide">
