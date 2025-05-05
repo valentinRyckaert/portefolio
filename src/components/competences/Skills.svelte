@@ -65,8 +65,7 @@
     {
       "Docker": 'images/docker.png',
       "Github": 'images/github.png',
-      "Gitlab": 'images/gitlab.png',
-      "Microsoft Azure": 'images/azure.png',
+      "Gitlab": 'images/gitlab.png'
     },
     // DPL/Webmarketing
     {

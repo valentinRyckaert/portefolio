@@ -18,10 +18,4 @@
     <div class="col">
         <UneCertification imageLink="images/c_cloud.jpg" title="Description des concpets du Cloud (Microsoft Learn)" listTools={["cloud computing"]}/>
     </div>
-    <div class="col">
-        <UneCertification imageLink="images/c_ubuntu.jpg" title="Linux Ubuntu : Les Fondamentaux (Skilleos)" listTools={["Linux","Ubuntu Server"]}/>
-    </div>
-    <div class="col">
-        <UneCertification imageLink="images/c_svelte.jpg" title="Svelte.js 3 (Skilleos)" listTools={["Svelte"]}/>
-    </div>
 </div>
