@@ -40,4 +40,15 @@
             <p>Soutenance de stage.</p>
         </span>
     </TitleTextImage>
+    <TitleTextImage imageLink="images/logo-ibcp.png" alt="Logo IBCP" imagePos="right" titlePos="end">
+        <span slot="title">
+            Stage à l'Institut de Biologie et Chimie des Protéines (IBCP)
+        </span>
+        <span slot="body">
+            <p>Stage de 8 semaines en développement Web.</p>
+            <p>Développement de l'application NPSA-NG intégrant des systèmes de calcul de protéines (Clustal Omega, Blastp, Alphafold 3...).</p>
+            <p>Utilisation des Frameworks FastAPI (python) et Svelte (JavaScript).</p>
+            <p>rédaction d'un rapport de stage.</p>
+        </span>
+    </TitleTextImage>
 </div>
