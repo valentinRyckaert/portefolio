@@ -19,6 +19,7 @@
       "Svelte": 'images/svelte.svg',
       "FastAPI": 'images/fastapi.png',
       "Deno": 'images/deno.png',
+      "Vue.js": 'images/vue.png',
       "Node.js": 'images/nodejs.png',
       "Express": 'images/nodejs.png',
       "Angular": 'images/angular.png',
