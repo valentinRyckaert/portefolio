@@ -4,6 +4,12 @@
 
 <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-3">
     <div class="col">
+        <UneCertification imageLink="images/c_vue.png" title="Professional Vue.js Developper" listTools={['Vue.js']}/>
+    </div>
+    <div class="col">
+        <UneCertification imageLink="images/c_python.png" title="Professional Python Developper" listTools={['Python', 'MySQL avec Python', 'MongoDB avec Python']}/>
+    </div>
+    <div class="col">
         <UneCertification imageLink="images/c_api_doc.png" title="Open Source Technical Documentation Essentials (Linux Fondation)" listTools={['Documentation d\'API',"Documentation Open-Source"]}/>
     </div>
     <div class="col">
