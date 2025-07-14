@@ -1,3 +1,17 @@
+<script>
+    function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) 
+        {
+            age--;
+        }
+        return age;
+    }
+</script>
+
 <h1 class="text-center mb-4">Des questions ?</h1>
 <div class="accordion" id="accordionExample">
     <div class="accordion-item">
@@ -9,11 +23,14 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <p>
-                    Je m'appelle Valentin, j'ai 19 ans et je suis lyonnais.
+                    Je m'appelle Valentin, j'ai {getAge("November 24, 2005 07:00:00")} ans et je suis lyonnais.
                 </p>
                 <p>
-                    Je suis étudiant en BTS SIO (Services Informatiques aux Organisations) à l'Institution des Chartreux.
-                    J'ai choisi en première année l'option SLAM (Solutions Logicielles et Applications Métiers) pour développer mes compétences en programmation.
+                    Je suis diplômé du BTS SIO (Services Informatiques aux Organisations) à l'Institution des Chartreux.
+                    J'ai choisi l'option SLAM (Solutions Logicielles et Applications Métiers) pour développer mes compétences en programmation.
+                </p>
+                <p>
+                    A présent, je suis étudiant en Cybersécurité à CPE Lyon, dans un cursus de 3 ans avec 2 ans d'alternance.
                 </p>
                 <a class="btn btn-link" href="/formation">ma formation</a>
             </div>
