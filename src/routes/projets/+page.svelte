@@ -7,6 +7,26 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
+        <Projet listTools="{['FastAPI','Svelte','MariaDB','Apache']}" linkTo="https://github.com/valentinRyckaert/ITAM-frontend" imageLink="" imageAlt="">
+            <span slot="title">
+                IT Assets Manager (ITAM)
+            </span>
+            <span slot="text">
+                Développement d'une Application web FastAPI - Svelte, pour la gestion d'inventaire d'actifs informatiques
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['React Native','SupaBase']}" linkTo="https://github.com/valentinRyckaert/Distribute" imageLink="" imageAlt="">
+            <span slot="title">
+                Distribute
+            </span>
+            <span slot="text">
+                Développement d'une Application mobile React Native : blog permettant aux utilisateurs de partager leurs problèmes informatiques pour éviter de toujours passer par l'assistance informatique
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
         <Projet listTools="{['PHP','composer']}" linkTo="https://github.com/valentinRyckaert/Piment" imageLink="images/piment.png" imageAlt="Logo piment">
             <span slot="title">
                 Application Piment
