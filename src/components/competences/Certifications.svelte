@@ -4,6 +4,9 @@
 
 <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-3">
     <div class="col">
+        <UneCertification imageLink="images/c_FCF.png" title="Fortinet Certified Fundamentals in Cybersecurity (Fortinet)" listTools={['Cybersécurité','Pare-feux','Threat Intelligence','Sécurité applicative','Administration réseaux']}/>
+    </div>
+    <div class="col">
         <UneCertification imageLink="images/c_vue.png" title="Professional Vue.js Developper" listTools={['Vue.js']}/>
     </div>
     <div class="col">

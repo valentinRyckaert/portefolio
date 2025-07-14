@@ -57,10 +57,11 @@
     },
     // Cybersécurité
     {
-      "Certificat": '',
+      "Pare-feux": '',
       "Horodatage": '',
       "Chiffrement": '',
-      "P2P": '',
+      "SafeLine (WAF)": 'images/logo-safeline.png',
+      "Sécurité Réseaux": ''
     },
     // DevOps
     {
