@@ -4,6 +4,9 @@
 
 <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-3">
     <div class="col">
+        <UneCertification imageLink="images/linux-admin.png" title="Red Hat System Administration I et II (RH124/134 - RHA) - Ver. 9.3" listTools={['Linux','RedHat Entreprise Linux (RHEL)']}/>
+    </div>
+    <div class="col">
         <UneCertification imageLink="images/c_FCF.png" title="Fortinet Certified Fundamentals in Cybersecurity (Fortinet)" listTools={['Cybersécurité','Pare-feux','Threat Intelligence','Sécurité applicative','Administration réseaux']}/>
     </div>
     <div class="col">
