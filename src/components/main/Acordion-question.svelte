@@ -45,7 +45,7 @@
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <p>
-                    Au cours de mon années, j'ai pu améliorer mes compétences en <strong>algorithmie</strong>, en <strong>Programmation Orientée Objet</strong> et en <strong>développement web</strong>.
+                    Au cours de mes années d'études, j'ai pu améliorer mes compétences en <strong>algorithmie</strong>, en <strong>Programmation Orientée Objet</strong> et en <strong>développement web</strong>.
                     Sur ce dernier point, je me suis particulièrement intéressé à Node.js et aux différents technologies associées (Express, Angular, Svelte, Strapi, TypeScript...).
                 </p>
                 <a class="btn btn-link" href="/competences">mes compétences</a>

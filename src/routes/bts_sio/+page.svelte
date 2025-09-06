@@ -16,6 +16,8 @@
 </script>
 
 {#if !active_presentation}
+    <h5 class="text-center mb-3">Voici le tableau de compétences présenté lors de mon BTS. Vous y trouverez les comptes rendus des TP effectués durant mes deux années d'études.</h5>
+    <h6 class="text-center mb-5">(cliquez sur une case pour voir le compte rendu et accéder aux PDF.)</h6>
     <div class="table-responsive">
         <table class="table table-bordered text-center align-middle">
             <thead>
