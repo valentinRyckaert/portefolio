@@ -7,7 +7,47 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
-        <Projet listTools="{['FastAPI','Svelte','MariaDB','Apache']}" linkTo="https://github.com/valentinRyckaert/ITAM-frontend" imageLink="" imageAlt="">
+        <Projet listTools="{['React', 'CSS', 'Bootstrap']}" linkTo="https://github.com/killex8569/DonnezNousUnStageOuUneAlternance" imageLink="" imageAlt="">
+            <span slot="title">
+                Donnez Nous un Stage ou une Alternance
+            </span>
+            <span slot="text">
+                Porte-folio en React fait dans le cadre de nos recherches pour le BAC+4 en alternance
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['Markdown']}" imageLink="" imageAlt="">
+            <span slot="title">
+                Europeanize Yourself!
+            </span>
+            <span slot="text">
+                Document listant les alternatives numériques européennes aux outils américains et asiatiques
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['Typer (Python)', 'NVD CVE', 'NMAP']}" linkTo="https://github.com/SpeeDelta/CVE-Searcher" imageLink="" imageAlt="">
+            <span slot="title">
+                CVEsearcher
+            </span>
+            <span slot="text">
+                Outil de scan réseau permettant de lister les CVE accessibles
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['Python', 'C', 'Bash']}" linkTo="https://github.com/killex8569/algo-en-27-exos" imageLink="" imageAlt="">
+            <span slot="title">
+                L'algo en 27 exos
+            </span>
+            <span slot="text">
+                Exercices progressifs pour apprendre l'algorithmie
+            </span>
+        </Projet>
+    </div>
+    <div class="col">
+        <Projet listTools="{['FastAPI','Svelte','MariaDB','Apache']}" linkTo="https://github.com/valentinRyckaert/ITAM-backend" imageLink="" imageAlt="">
             <span slot="title">
                 IT Assets Manager (ITAM)
             </span>
@@ -27,7 +67,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['PHP','composer']}" linkTo="https://github.com/valentinRyckaert/Piment" imageLink="images/piment.png" imageAlt="Logo piment">
+        <Projet listTools="{['PHP','composer']}" linkTo="https://github.com/valentinRyckaert/Piment">
             <span slot="title">
                 Application Piment
             </span>
@@ -37,7 +77,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['C']}" linkTo="https://github.com/valentinRyckaert/ALL" imageLink="images/ALL.png" imageAlt="program ALL">
+        <Projet listTools="{['C']}" linkTo="https://github.com/valentinRyckaert/ALL">
             <span slot="title">
                 Assembly-Like Language (ALL)
             </span>
@@ -47,7 +87,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Docker','WordPress', 'WooCommerce', 'Hubspot', 'Yoast SEO']}" imageLink="images/logo_votregouvernement.png" imageAlt="logo VotreGouvernement">
+        <Projet listTools="{['Docker','WordPress', 'WooCommerce', 'Hubspot', 'Yoast SEO']}">
             <span slot="title">
                 Site vitrine WordPress
             </span>
@@ -58,7 +98,7 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['Laravel','Tailwind','Tuleap','Figma']}" imageLink="images/logoPrixy.png" imageAlt="Logo Prixy">
+        <Projet listTools="{['Laravel','Tailwind','Tuleap','Figma']}">
             <span slot="title">
                 Application web de réservation
             </span>
@@ -69,29 +109,9 @@
         </Projet>
     </div>
     <div class="col">
-        <Projet listTools="{['GLPI']}" imageLink="images/GLPI.png" imageAlt="Logo GLPI">
+        <Projet listTools="{['Django','Bootstrap','SQLite']}" imageAlt="">
             <span slot="title">
-                TP GLPI
-            </span>
-            <span slot="text">
-                Mise en place d'un GLPI pour la gestion d'incidents
-            </span>
-        </Projet>
-    </div>
-    <div class="col">
-        <Projet listTools="{['Docker','GLPI','OCS Inventory','Apache','MySQL']}" imageLink="images/OCSInventory.png" imageAlt="Logo GLPI">
-            <span slot="title">
-                TP OCS
-            </span>
-            <span slot="text">
-                Mise en place d'un OCS Inventory couplé à un GLPI pour la gestion de patrimoine informatique
-            </span>
-        </Projet>
-    </div>
-    <div class="col">
-        <Projet listTools="{['Django','Bootstrap','SQLite']}" linkTo="https://github.com/valentinRyckaert/MonContrat" imageLink="images/moncontrat.png" imageAlt="site de moncontrat">
-            <span slot="title">
-                Générateur de contrat de partenariat commercial
+                MonContrat
             </span>
             <span slot="text">
                 Application web de type CRUD : formulaire générant un contrat et stockage des différents contrats.
