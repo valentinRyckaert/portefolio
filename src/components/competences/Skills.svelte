@@ -6,16 +6,20 @@
     "Programmation",
     "Base de données",
     "Système/Réseau",
+    "Virtualisation",
     "Cybersécurité",
     "DevOps",
     "DPL/Webmarketing",
     "Soft Skills",
     "Langues",
+    "Linux",
+    "Outils"
   ];
 
   let skillsDictionnary = [
     // Web
     {
+      "React": 'images/React.png',
       "Svelte": 'images/svelte.svg',
       "FastAPI": 'images/fastapi.png',
       "Deno": 'images/deno.png',
@@ -53,26 +57,40 @@
       "Linux": 'images/linux.png',
       "Serveur Linux": 'images/debian.png',
       "DNS": '',
+      "DHCP": '',
       "Routage": '',
+      "VLAN": '',
+      "Cisco": '',
+      "Switching": '',
+      "VLSM/FLSM": ''
+    },
+    // Virtualisation
+    {
+      "VMWare": 'images/vmware.jpg',
+      "vSphere": 'images/vmware-vsphere.svg',
+      "Qemu/KVM": 'images/QEMU.png',
     },
     // Cybersécurité
     {
-      "Pare-feux": '',
+      "OPNSense": 'images/opnsense.svg',
+      "WAF": 'images/logo-safeline.png',
       "Horodatage": '',
       "Chiffrement": '',
-      "SafeLine (WAF)": 'images/logo-safeline.png',
-      "Sécurité Réseaux": ''
+      "Sécurité Réseaux": '',
+      "Sécurité applicative": '',
+      "Bonnes pratiques cyber": ''
     },
     // DevOps
     {
       "Docker": 'images/docker.png',
       "Github": 'images/github.png',
-      "Gitlab": 'images/gitlab.png'
+      "Gitlab": 'images/gitlab.png',
+      "Apache": 'images/apache.svg'
     },
     // DPL/Webmarketing
     {
       "WordPress": 'images/wordpress.png',
-      "Référencement": '',
+      "Référencement/SEO": '',
       "E-mailing": '',
     },
     // Soft Skills
@@ -80,11 +98,31 @@
       "Autoapprenissage": '',
       "Travail en équipe": '',
       "Conduite de projet": '',
+      "Bon relationnel": ''
     },
     // Langues
     {
       "Anglais": '',
       "Allemand": '',
+    },
+    // Linux
+    {
+      "Arch": 'images/arch.svg',
+      "Fedora": 'images/fedora.svg',
+      "Ubuntu": 'images/ubuntu.svg',
+      "Debian": 'images/debian.svg',
+      "RHEL": 'images/redhat.svg',
+      "Kali": 'images/kali.svg',
+      "Alpine": 'images/alpine-linux.png'
+    },
+    
+    // Outils
+    {
+      "Obsidian": 'images/obsidian.png',
+      "Only office": 'images/onlyoffice.png',
+      "Suite office": 'images/suite-office.png',
+      "VsCode": 'images/vscode.png',
+      "IntelliJ": 'images/intellij.png',
     },
   ];
 
@@ -126,6 +164,8 @@
           <UnSkill skills={skillsDictionnary[9]}/>
 		    {:else if active == skillFamilyList[10]}
           <UnSkill skills={skillsDictionnary[10]}/>
+        {:else if active == skillFamilyList[11]}
+          <UnSkill skills={skillsDictionnary[11]}/>
         {/if}
     </div>
 </div>
